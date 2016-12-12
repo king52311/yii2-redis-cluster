@@ -1,0 +1,21 @@
+{
+    "name": "mtrr/yii2-redis-cluster",
+    "description": "redis cluster extension for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","redisCluster"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Tommy Zheng",
+            "email": "zgb7@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mtrr\\rediscluster\\": ""
+        }
+    }
+}
